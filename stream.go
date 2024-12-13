@@ -151,7 +151,7 @@ func (p *PriceAccountStream) readNextUpdate(ctx context.Context, sub *ws.Program
 	}()
 
 	// Read next account update from WebSockets.
-	update, err := sub.Recv()
+	update, err := sub.Recv(ctx)
 	if err != nil {
 		return err
 	} else if update == nil {

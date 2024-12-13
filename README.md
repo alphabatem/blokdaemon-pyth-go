@@ -1,3 +1,5 @@
+# FORK OF Blockdaemon/pyth-go with deps updated
+
 <div align="center">
   <h1>Pyth Network Go client</h1>
   <p>
