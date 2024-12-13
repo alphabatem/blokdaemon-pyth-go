@@ -1,4 +1,4 @@
-module go.blockdaemon.com/pyth
+module github.com/alphabatem/blokdaemon-pyth-go
 
 go 1.21
 
